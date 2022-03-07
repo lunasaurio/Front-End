@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <style>
+        .fuente{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: left; color: black;
+            
+        }
+        .logo{
+            position: absolute;
+            top: 950px;
+            left: 700px;
+        }
+        .myButton {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            line-height: 20px;
+            padding: 14px;
+            border-radius: 0px;
+            font-family: Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            background-image: linear-gradient(to right, rgb(164, 28, 157) 0%, rgb(164, 35, 203) 50%, rgb(109, 20, 117) 100%);
+            box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+            border: 2px solid rgb(28, 110, 164);
+            display: inline-block;
+        }
+
+        .myButton:hover {
+            background: #c92197;
+        }
+
+        .myButton:active {
+            background: #c92197;
+        }
+        .end {
+            color: black;
+            text-align: end;
+        }
+    </style>
+</head>
+<body bgcolor="8addf7">
+    <img src="./FernandasDessertCafe.png" alt="">
+    <center><title>Información Personal</title></center>
+    <h2 class="fuente">Dejanos tus datos para procesar tu orden.</h2>
+    <form action="js" class="fuente">
+        <h3>Nombre</h3>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
+        <h3>Apellido</h3>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido"><br>
+        <h3>Numero de Telefono</h3>
+        <input type="number" name="numero" id="numero" max="10" placeholder="Telefono">
+        <h3>Correo Electronico</h3>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+
+    </form>
+    <br>
+    <img src="./BakeRy.png" alt="" class="logo" height="325px">
+    <a href="./end.html"><input type="button" class="myButton" target="blank" id="page3" name="page3" value="Comienza la Magia"></a>
+    <footer class="end">Tienda de postres
+        WhatsApp 3334914263
+        📍Guadalajara, Jal.
+    </footer>
+    <footer class="end">
+        <a href="https://www.facebook.com/fernandasbakery.2" target="blank" class="derecha">Facebook</a>
+        <a href="https://www.instagram.com/fernandas_bakery.2/" target="blank" class="derecha">Instagram</a>
+    </footer>
+
+</body>
+</html>

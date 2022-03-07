@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Order</title>
+    <style>
+        .derecha {
+            text-align: right;
+        }
+
+        .centro {
+            text-align: center;
+        }
+
+
+        .pastel {
+            width: 375px;
+            height: 100px;
+            background-color: rgb(245, 76, 166);
+        }
+
+        .cupcake {
+            width: 375px;
+            height: 100px;
+            background-color: rgb(226, 158, 226);
+
+        }
+
+        .postres {
+            width: 375px;
+            height: 100px;
+            background-color: rgb(74, 90, 228);
+        }
+        .pay{
+            width: 375px;
+            height: 100px;
+            background-color: rgb(220, 235, 88); 
+        }
+        .especiales{
+            width: 375px;
+            height: 100px;
+            background-color: rgb(122, 202, 56);
+        }
+        p{
+            width: 1000px;
+            height: 10px;
+            background-color: brown;
+        }
+        .myButton {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            line-height: 20px;
+            padding: 14px;
+            border-radius: 0px;
+            font-family: Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            background-image: linear-gradient(to right, rgb(164, 28, 157) 0%, rgb(164, 35, 203) 50%, rgb(109, 20, 117) 100%);
+            box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+            border: 2px solid rgb(28, 110, 164);
+            display: inline-block;
+        }
+
+        .myButton:hover {
+            background: #c92197;
+        }
+
+        .myButton:active {
+            background: #c92197;
+        }
+        .end {
+            color: black;
+            text-align: end;
+        }
+    </style>
+</head>
+
+<body bgcolor="8ADDF7">
+    <center>
+        <img src="./FernandasDessertCafe.png" alt="">
+        <font color="black" size="7" face="Arial">
+            Cree su orden de Fernanda´s Bakery
+        </font><br>
+    </center>
+   
+   <form action=""> <center>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="pastel"><h3>Pasteles 16cm</h3></td>
+                    <td class="cupcake"><h3>Cupcakes</h3></td>
+                    <td class="postres"><h3>Postres</h3></td>
+                </tr>
+                <tr>
+                    <td class="pastel"><center><img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/06/esponjosopasteldevanilla.jpg"
+                        alt="" height="150px"></center></td>
+                    <td class="cupcake"><center><img src="https://i.ytimg.com/vi/RwSuKZrwVAU/maxresdefault.jpg" alt="" height="150px" alt="" height="150px"></td>
+                    <td class="postres"><center><img src="https://t2.rg.ltmcdn.com/es/posts/6/3/3/tartaletas_de_frutas_con_queso_crema_55336_600.jpg"
+                        alt="" height="150px"></center></td>
+            
+                </tr>
+                <tr>
+                    <td class="pastel"><input type="checkbox" id="cake" name="cake">Vainilla___$200.0<input
+                            type="number" min="0" maxlength="2"></td>
+                    <td class="cupcake"><input type="checkbox" id="cup" name="cup">Zanahoria___$25.00<input
+                            type="number" min="0" maxlength="2"></td>
+                    <td class="postres"><input type="checkbox" id="postres" name="postres">Tartaletas chicas__$18.00<input
+                            type="number" min="0" maxlength="2"></td>
+                </tr>
+                <tr>
+                    <td class="pastel"><center><img src="https://i.blogs.es/27bdbe/tarta-chocolate-vino1/840_560.jpg"
+                        alt="" height="150px"></center></td>
+                    <td class="cupcake"><center><img src="https://cdn.colombia.com/gastronomia/2012/09/14/cupcakes-de-chocolate-3382.jpg"
+                        alt="" height="150px"></center></td>
+                    <td class="postres"><center><img src="https://t2.rg.ltmcdn.com/es/posts/6/3/3/tartaletas_de_frutas_con_queso_crema_55336_600.jpg"
+                        alt="" height="150px"></center></td>
+                </tr>
+                <tr>
+                    <td class="pastel"><input type="checkbox" id="cake" name="cake">Chocolate____$200.00<input
+                        type="number" min="0" maxlength="2"></td>
+                    <td class="cupcake"><input type="checkbox" id="cup" name="cup">Chocolate____$20.00<input
+                            type="number" min="0" maxlength="2"></td>
+                    <td class="postres"><input type="checkbox" id="postres" name="postres">Tartaletas grandes__$25.00<input
+                            type="number" min="0" maxlength="2"></td>
+                </tr>
+                <tr>
+                    <td class="pastel"><center><img src="https://static.onecms.io/wp-content/uploads/sites/21/2018/01/30/pastel-de-zanahoria-con-nuez-2000.jpg"
+                        alt="" height="150px"></center></td>
+                    <td class="cupcake"><center><img src="https://imag.bonviveur.com/cupcakes-de-vainilla.jpg" 
+                        alt="" height="150px"></center></td>
+                    <td class="postres"><center><img src="https://www.recetasderechupete.com/wp-content/uploads/2019/11/Brownie.jpg"
+                        alt="" height="150px"></center></td>
+                </tr>
+                <tr>
+                    <td class="pastel"><input type="checkbox" id="GET-Zcake">
+                        <label for="GET-Zcake">Zanahoria____$200.00</label>
+                        <input type="number" id="GET-Zcake" name="Zanahoria"></td>
+                    <td class="cupcake"><input type="checkbox" id="GET-Vcup">
+                        <label for="GET-Vcup">Vainilla____$20.00</label>
+                        <input type="number" id="GET-Vcup" name="Vainilla" min="0"></td>
+                    <td class="postres"><input type="checkbox" id="GET-Brownie">
+                        <label for="GET-Brownie">Brownies___$25.00</label>
+                        <input type="number" id="GET-Brownie" name="Brownie" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="pastel"></td>
+                    <td class="cupcake"><center><img src="https://www.deliciosi.com/images/300/320/cupcakes-de-platano.jpg"
+                        alt="" height="150px"></center></td>
+                    <td class="postres"><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Blue_and_brown_cakepops_%2813386858965%29.jpg/1200px-Blue_and_brown_cakepops_%2813386858965%29.jpg"
+                        alt="" height="150px"></center></td>
+                </tr>
+                <tr>
+                    <td class="pastel"></td>
+                    <td class="cupcake"><input type="checkbox" id="GET-Pcup">
+                        <label for="GET-Pcup">Plátano____$20.00</label>
+                        <input type="number" id="GET-Vcup" name="Platano" min="0"></td>
+                    <td class="postres"><input type="checkbox" id="GET-Pops">
+                        <label for="GET-Pops">Cake Pops______$17.00</label>
+                        <input type="number" id="GET-Pops" name="Pops" min="0"></td>
+                </tr>
+                <tr>
+                    <td class="pastel"></td>
+                    <td class="cupcake"></td>
+                    <td class="postres"><center><img src="https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/chocolate-chip-cookies.jpg"
+                        alt="" height="150px"></center></td>
+                </tr>
+                <tr>
+                    <td class="pastel"></td>
+                    <td class="cupcake"></td>
+                    <td class="postres"><input type="checkbox" id="GET-Galleta">
+                        <label for="GET-Galleta">Galletas_____$15.00</label>
+                        <input type="number" id="GET-Galleta" name="galleta" min="0"></td>
+                </tr>
+            <br><br><br>
+            <br><br><br>
+            <tr>
+                <td class="pay"><h3>Pay</h3></td>
+                <td class="especiales"><h3>Especiales</h3></td>
+            </tr>
+            <tr>
+                <td class="pay"><center><img src="https://mandolina.co/wp-content/uploads/2020/10/Rebanada-de-tarta-de-queso.jpg"
+                    alt="" height="150px"></center></td>
+                <td class="especiales"><center><img src="https://www.recetasderechupete.com/wp-content/uploads/2020/05/Tiramis%C3%BA-italiano-768x530.jpg"
+                    alt="" height="150px"></center></td> 
+            </tr>
+            <tr>
+                <td class="pay"><input type="checkbox" id="GET-Qpay">
+                    <label for="GET-Qpay">Pay de queso grande___$300.00</label>
+                    <input type="number" id="GET-Qpay" name="Pay" min="0"></td>
+                <td class="especiales"><input type="checkbox" id="GET-Tiramisu">
+                    <label for="GET-Tiramisu">Tiramisú_____$500.00</label>
+                    <input type="number" id="GET-Tiramisu" name="tiramisu" min="0"></td>
+            </tr>
+            <tr>
+                <td class="pay"><center><img src="https://cocinamia.com.mx/wp-content/uploads/2020/02/a-02-1100x500.png"
+                    alt="" height="150px"></center></td>
+                <td class="especiales"><center><img src="https://www.cubaneandoconmario.com/wp-content/uploads/2021/04/Trenza-Dulce-Rellena-De-Queso-e1619079707129.jpg"
+                    alt="" height="150px"></center></td>    
+            </tr>
+            <tr>
+                <td class="pay"><input type="checkbox" id="GET-Lpay">
+                    <label for="GET-Lpay">Pay de Limón___$200.00</label>
+                    <input type="number" id="GET-Lpay" name="Pay" min="0"></td>
+                <td class="especiales"><input type="checkbox" id="GET-TPP">
+                    <label for="GET-TPP">Trenza de Piña con Philadelfia_____$200.00</label>
+                    <input type="number" id="GET-TPP" name="Trenza" min="0"></td>
+            </tr>
+            <tr>
+                <td class="pay"><center><img src="https://i.ytimg.com/vi/fWGnN-4IxyI/maxresdefault.jpg"
+                    alt="" height="150px"></center></td>
+                <td class="especiales"></td>
+            </tr>
+            <tr>
+                <td class="pay"><input type="checkbox" id="GET-Ppay">
+                    <label for="GET-Ppay">Pay de piña___$200.00</label>
+                    <input type="number" id="GET-Ppay" name="Pay" min="0"></td>
+                    <td class="especiales"></td>
+            </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <a href="./page2.html">
+            <input type="button" id="page2" name="page2" value="Seleccionar Toppings" class="myButton" target="blank">
+        </a>
+    </center>
+    <br>
+    <footer class="end">Tienda de postres
+        WhatsApp 3334914263
+        📍Guadalajara, Jal.
+    </footer>
+    <footer class="derecha">
+        <a href="https://www.facebook.com/fernandasbakery.2" target="blank" class="derecha">Facebook</a>
+        <a href="https://www.instagram.com/fernandas_bakery.2/" target="blank" class="derecha">Instagram</a>
+    </footer>
+</form>
+</body>
+
+</html>

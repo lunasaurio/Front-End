@@ -1,0 +1,84 @@
+.derecha {
+    text-align: right;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+.pastel {
+    width: 375px;
+    height: 100px;
+    background-color: rgb(245, 76, 166);
+}
+
+.cupcake {
+    width: 375px;
+    height: 100px;
+    background-color: rgb(226, 158, 226);
+
+}
+
+.postres {
+    width: 375px;
+    height: 100px;
+    background-color: rgb(74, 90, 228);
+}
+.pay{
+    width: 375px;
+    height: 100px;
+    background-color: rgb(220, 235, 88); 
+}
+.especiales{
+    width: 375px;
+    height: 100px;
+    background-color: rgb(122, 202, 56);
+}
+p{
+    width: 1000px;
+    height: 10px;
+    background-color: brown;
+}
+.myButton {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 20px;
+    padding: 14px;
+    border-radius: 0px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(164, 28, 157) 0%, rgb(164, 35, 203) 50%, rgb(109, 20, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+}
+
+.myButton:hover {
+    background: #c92197;
+}
+
+.myButton:active {
+    background: #c92197;
+}
+.end {
+    color: black;
+    text-align: end;
+}
+h3, h2, h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left; color: black;
+    
+}
+
+.home {
+    position: -webkit-sticky;
+position: sticky;
+font-size: medium;
+top: 20px;
+left: 20px;
+}

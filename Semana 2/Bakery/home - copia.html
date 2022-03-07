@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fer Bakery</title>
+    <style>
+        .centro {
+            color: black;
+            text-align: center;
+        }
+
+        .izquierda {
+            color: black;
+            text-align: left;
+        }
+
+        .derecha {
+            color: black;
+            text-align: right;
+        }
+
+        #titulo {
+            color: black;
+            font: bold;
+        }
+
+        #uno {
+            text-align: right;
+
+        }
+
+        .myButton {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            line-height: 20px;
+            padding: 14px;
+            border-radius: 0px;
+            font-family: Georgia, serif;
+            font-weight: normal;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+            box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+            border: 2px solid rgb(28, 110, 164);
+            display: inline-block;
+        }
+
+        .myButton:hover {
+            background: #21c921;
+        }
+
+        .myButton:active {
+            background: #17c52e;
+        }
+
+        .pastel {
+            background-color: rgb(117, 150, 25);
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body bgcolor="8ADDF7">
+    <center>
+        <img src="./Fernanda's Dessert Cafe.png" alt="logo" height="">
+        <font color="black" size="7" face="Arial">
+            Bienvenidos a Fernanda´s Bakery
+        </font><br>
+        <h1>Menú</h1>
+    </center>
+    <h3>Pasteles</h3>
+    <div class="pastel"><img src="https://i.blogs.es/27bdbe/tarta-chocolate-vino1/840_560.jpg" alt="" height="100px"></div>
+    <div class="pastel">Chocolate____200.00</div>
+    
+    <div class="pastel"><img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/06/esponjosopasteldevanilla.jpg"
+        alt="" height="100px" ></div>
+    <div class="pastel">Vainilla____200.00</div>
+    <div class="pastel"><img src="https://static.onecms.io/wp-content/uploads/sites/21/2018/01/30/pastel-de-zanahoria-con-nuez-2000.jpg" alt="" height="100px"></div>
+    <div class="pastel">Zanahoria____200.00</div>
+    <center>
+
+
+        <br><br><br>
+        <a href="./page1.html">
+            <input type="button" id="page1" name="page1" value="Hacer un Pedido" class="myButton">
+        </a>
+    </center>
+    <br>
+    <!-- Formulario simple que enviará una petición GET -->
+<form action="">
+    <label for="GET-name">Nombre:</label>
+    <input id="GET-name" type="text" name="name">
+    <input type="submit" value="Save">
+  </form>
+  
+  <!-- Formulario simple que enviará una petición POST -->
+  <form action="" method="post">
+    <label for="POST-name">Nombre:</label>
+    <input id="POST-name" type="text" name="name">
+    <input type="submit" value="Save">
+  </form>
+  
+  <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+  <form action="" method="post">
+    <fieldset>
+      <legend>Título</legend>
+      <input type="radio" name="radio" id="radio"> <label for="radio">Clic aquí</label>
+    </fieldset>
+  </form>
+  
+    <br>
+    <center>
+        <footer class="derecha">Fernanda’s Bakery
+            Tienda de postres
+            WhatsApp 3334914263
+            📍Guadalajara, Jal.
+            www.facebook.com/fernandasbakery.2</footer>
+    </center>
+</body>
+
+</html>

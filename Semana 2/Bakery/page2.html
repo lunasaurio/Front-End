@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toppings</title>
+    <link rel="stylesheet" href="./a.css">
+    <style>
+        .toppings{
+            width: 375px;
+            height: 100px;
+            background-color: darkseagreen;
+        }
+        .dulces{
+            width: 375px;
+            height: 100px;
+           background-color: khaki;
+        }
+        .relleno{
+            width: 375px;
+            height: 100px;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body bgcolor="8addf7">
+    <center>
+        <img src="./FernandasDessertCafe.png" alt="">
+        <font color="black" size="7" face="Arial">
+           Añada Toppings
+        </font><br>
+    </center>
+<form action="./code.js">
+    <center>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="toppings"><h3>Toppings para Tartas o Pasteles. MAX 3</h3></td>
+                    <td class="dulces"><h3>Dulces para Brownies, uno por pieza.</h3></td>
+                    <td class="relleno"><h3>Relleno Para Pastel.</h3></td>
+                </tr>
+                <tr>
+                    <td class="toppings"><img src="https://img.interempresas.net/fotos/1341264.jpeg" alt="" height="100px"></td>
+                    <td class="dulces"><img src="https://revistaloscinicos.files.wordpress.com/2019/10/lunetas-chocolate-confitado-de-colores-dulces-fiesta-reventa-d_nq_np_890915-mlm25331762657_022017-f-e1569974288340.jpg" alt="" height="100px"></td>
+                    <td class="relleno"><img src="https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/05/11072732/RFB-1602-1-ganachedechocolate.jpg" alt="" height="100px"></td>
+                </tr>
+                <tr>
+                    <td class="toppings"><input type="checkbox" id="fruta"  name="fruta" onchange="check(this.value)">Fresas</td>
+                    <td class="toppings"><input type="checkbox" id="dulce"  name="dulce" onchange="check(this.value)">Lunetas</td>
+                    <td class="toppings"><input type="checkbox" id="relleno"  name="relleno" onchange="check(this.value)">Ganache de chocolate</td>
+                </tr>
+                <tr>
+                    <td class="toppings"><img src="https://s1.eestatic.com/2021/09/17/ciencia/nutricion/612699746_208614860_1706x960.jpg" alt="" height="100px"></td>
+                    <td class="dulces"><img src="https://c8.alamy.com/compes/h81btm/paquete-de-mini-snickers-h81btm.jpg" alt="" height="100px"></td>
+                    <td class="relleno"><img src="https://static.onecms.io/wp-content/uploads/sites/21/2017/12/28/mermelada-de-fresa-casera-2000.jpg" alt="" height="100px"></td>
+                </tr>
+                <tr>
+                    <td class="toppings"><input type="checkbox" id="fruta"  name="fruta" onchange="check(this.value)">Manzana</td>
+                    <td class="dulces"><input type="checkbox" id="dulce"  name="dulce" onchange="check(this.value)">Snickers</td>
+                    <td class="relleno"><input type="checkbox" id="relleno"  name="relleno" onchange="check(this.value)">Mermelada de Fresa</td>
+                </tr>
+                <tr>
+                    <td class="toppings"><center><img src="https://www.chedraui.com.mx/medias/2502822-00-CH515Wx515H?context=bWFzdGVyfHJvb3R8Njc5OTh8aW1hZ2UvanBlZ3xoMWQvaDY2Lzk5NjEzNzk0NjMxOTguanBnfDQ5YWNkYzIxYzg1YzVjYjZlNTYxNTQ4MGM1NWE2M2UxNWNiNzZiMTEyOWMxNmRjNGVkMjVjNGM4Y2U4YWJlNjk" alt="" height="100px"></center></td>
+                    <td class="dulces"><center><img src="https://cdn.shopify.com/s/files/1/0032/0674/2114/products/Krankys_1200x1200.jpg?v=1626667654" alt="" height="100px"></center></td>
+                    
+                </tr>
+                <tr>
+                    <td class="toppings"><input type="checkbox" id="fruta"  name="fruta" onchange="check(this.value)">Uva Verde</td>
+                    <td class="dulces"><input type="checkbox" id="dulce"  name="dulce" onchange="check(this.value)">Kranky</td>
+                </tr>
+                <tr>
+                    <td class="toppings"><center><img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2020/08/kiwi.jpg" alt="" height="100px"></center></td>
+                    <td class="dulces"><center><img src="https://m.media-amazon.com/images/I/41GdHFdSGlL._AC_.jpg" alt="" height="100px"></center></td>
+                </tr>
+                <tr>
+                    <td class="toppings"><input type="checkbox" id="fruta"  name="fruta" onchange="check(this.value)">Kiwi</td>
+                    <td class="dulces"><input type="checkbox" id="dulce"  name="dulce" onchange="check(this.value)">Chispas</td>
+                </tr>
+                <tr>
+                    <td class="toppings"><center><img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/2020-07/carambola-frutto.jpg" alt="" height="100px"></center></td>
+                    <td class="dulces"><center><img src="https://dulcesagranel.com/wp-content/uploads/2015/12/nueces.jpg" alt="" height="100px"></center></td>
+                </tr>
+                <tr>
+                    <td class="toppings"><input type="checkbox" id="fruta"  name="fruta" max="3" onchange="check(this.value) ">Carambola</td>
+                    <td class="dulces"><input type="checkbox" id="dulce"  name="dulce" onchange="check(this.value)">Nuez</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <br>
+    <center><a href="./page3.html"><input type="button" value="Continuar" class="myButton"></a></center>
+</form>
+
+</body>
+
+</html>
